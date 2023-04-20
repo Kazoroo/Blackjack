@@ -24,10 +24,7 @@ while cards <= 21 or cards >= 21:
     if cards >= 21:
         print("Przegrałeś, miałeś", cards, "oczek, a bot miał", bot)
         break
-
-
-
-    if user_choise == 1:
+    if user_choice == 1:
         cards = cards + randint(1,14)
         #print("Twoje wszytskie karty mają wartość", cards)
 
